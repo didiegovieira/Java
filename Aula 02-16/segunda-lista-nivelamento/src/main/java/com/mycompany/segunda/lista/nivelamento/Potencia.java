@@ -8,13 +8,9 @@ package com.mycompany.segunda.lista.nivelamento;
  *
  * @author diego
  */
-public class NumerosImpares {
-    public static void main(String[] args) {  
-        for (int i = 0; i <= 90; i++) {
-            if(i % 3 == 0){
-                System.out.println(i);
-            }
-            
-        }
+public class Potencia {
+    public static void main(String[] args) {
+        
+        
     }
 }
