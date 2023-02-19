@@ -59,3 +59,12 @@ public class Loteria {
         }
     }
 }
+
+// Crie uma classe chamada Loteria que:
+// • Solicite apenas uma vez número entre 0 e 10 para o usuário.
+// • Tente adivinhar o número digitado através de números randômicos.
+// • A cada iteração exiba o número sorteado.
+// • Quando acontecer o “acerto” se a quantidade de vezes necessárias for:
+// Até 3: exiba "Você é MUITO sortudo"
+// Entre 4 e 10: exiba "Você é sortudo"
+// Mais de 10: exiba "É melhor você parar de apostar e ir trabalhar"

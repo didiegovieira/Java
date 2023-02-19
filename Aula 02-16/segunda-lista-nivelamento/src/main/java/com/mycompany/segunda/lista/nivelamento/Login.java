@@ -14,17 +14,16 @@ public class Login {
     public static void main(String[] args) {
         Scanner read = new Scanner(System.in);
         
-        String login = "admin";
-        String password = "#SPtech2022";
         String loginTest = "";
         String passwordTest = "";
-        Boolean validation = (loginTest.equals(login)) || (passwordTest.equals(password));
         
         System.out.println("Diga seu nome de usuario e senha: ");
         System.out.println("Login:");
         loginTest = read.nextLine();
         System.out.println("Senha:");
         passwordTest = read.nextLine();
+        
+        Boolean validation = (loginTest.equals("admin")) && (passwordTest.equals("#SPtech2022"));
         
         if(!validation){
             do {
@@ -39,3 +38,10 @@ public class Login {
         System.out.println("Login realizado com sucesso");
     }
 }
+
+// Crie uma classe chamada Login que simule a autenticação de um usuário em um sistema:
+// • Use como parâmetro de validação o login “admin” e a senha “#SPtech2022” 
+// • Solicite o nome de usuário e senha.
+// • Exiba: “Login e/ou senha inválidos” caso os valores digitados sejam diferentes e 
+// solicite novamente.
+// • Caso o usuário digite os campos corretamente, exiba: “Login realizado com sucesso”

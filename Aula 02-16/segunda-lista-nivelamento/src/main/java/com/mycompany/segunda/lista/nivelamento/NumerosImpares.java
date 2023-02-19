@@ -18,3 +18,6 @@ public class NumerosImpares {
         }
     }
 }
+
+// Crie uma classe chamada NumerosImpares que: 
+// • Usando “for”, exiba todos os números ímpares entre 0 e 90.

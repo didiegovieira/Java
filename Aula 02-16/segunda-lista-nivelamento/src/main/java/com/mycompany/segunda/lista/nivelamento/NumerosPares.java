@@ -21,3 +21,6 @@ public class NumerosPares {
         }
     }
 }
+
+// Crie uma classe chamada NumerosImpares que: 
+// • Exiba todos os números pares de 0 a 40 usando while

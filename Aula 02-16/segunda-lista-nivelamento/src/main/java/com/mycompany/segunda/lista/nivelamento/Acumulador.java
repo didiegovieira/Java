@@ -27,3 +27,8 @@ public class Acumulador {
         System.out.println(String.format("A soma dos números é: %d", total));
     }
 }
+
+// Crie uma classe chamada Acumulador que: 
+// • Leia vários números até ler o número 0 e calcule a soma dos números lidos. 
+// (Não é para usar vetor).
+// • Exiba: "A soma dos números é x"
