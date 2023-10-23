@@ -1,0 +1,12 @@
+qual seria a melhor forma: classe abstrata ou interface? Justifique.
+	r: as duas é necessária, pois precisamos implementar metodos e atributos
+	para isso podemos criar uma classe de funcionario abstrata e a de bonus
+	sendo uma interface, 
+	
+é necessário ter 2 List ou apenas um?
+ 	r: apenas uma pois todos que forem implement do Bonus poderam ser acessados
+ 	em uma lista de bonus
+ 	 	
+ O polimorfismo está presente nesse sistema? Justifique.
+ 	r: sim, pois temos uma sobrescrita já que cada uma das classes que implementa
+ 	o Bonus irá fazer uma conta diferente.
