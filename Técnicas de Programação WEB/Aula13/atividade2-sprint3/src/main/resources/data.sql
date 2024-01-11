@@ -1,0 +1,40 @@
+INSERT INTO equipe (nome, nome_do_tecnico)
+VALUES
+    ('Corredores Rápidos', 'Carlos Silva'),
+    ('Artistas da Bola', 'Mariana Oliveira'),
+    ('Máquinas do Futebol', 'Ricardo Santos'),
+    ('Unidos Venceremos', 'Ana Pereira');
+
+INSERT INTO atleta (nome, idade, posicao, equipe_id)
+VALUES
+    ('João Silva', 25, 'Atacante', 1),
+    ('Ana Oliveira', 22, 'Defensor', 1),
+    ('Carlos Pereira', 28, 'Meio-campo', 1),
+    ('Luísa Costa', 24, 'Goleira', 1),
+    ('Isabela Oliveira', 23, 'Defensor', 1),
+    ('Miguel Santos', 27, 'Meio-campo', 1),
+    ('Fernanda Costa', 25, 'Goleira', 1),
+    ('Pedro Santos', 23, 'Atacante', 2),
+    ('Mariana Lima', 27, 'Defensor', 2),
+    ('Rafaela Souza', 25, 'Meio-campo', 2),
+    ('Lucas Oliveira', 21, 'Goleiro', 2),
+    ('Guilherme Lima', 24, 'Atacante', 2),
+    ('Amanda Souza', 26, 'Defensor', 2),
+    ('Roberto Oliveira', 22, 'Meio-campo', 2),
+    ('Natália Pereira', 28, 'Goleira', 2),
+    ('Gabriel Costa', 24, 'Atacante', 3),
+    ('Laura Pereira', 26, 'Defensor', 3),
+    ('André Oliveira', 22, 'Meio-campo', 3),
+    ('Júlia Santos', 28, 'Goleira', 3),
+    ('Vinícius Costa', 25, 'Atacante', 3),
+    ('Camila Lima', 29, 'Defensor', 3),
+    ('Ricardo Pereira', 24, 'Meio-campo', 3),
+    ('Larissa Souza', 26, 'Goleira', 3),
+    ('Diego Lima', 25, 'Atacante', 4),
+    ('Vitória Souza', 29, 'Defensor', 4),
+    ('Gustavo Costa', 24, 'Meio-campo', 4),
+    ('Carolina Pereira', 26, 'Goleira', 4),
+    ('Felipe Santos', 23, 'Atacante', 4),
+    ('Natasha Oliveira', 27, 'Defensor', 4),
+    ('Alexandre Costa', 25, 'Meio-campo', 4),
+    ('Isadora Lima', 21, 'Goleira', 4);
